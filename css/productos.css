@@ -1,0 +1,82 @@
+/** 
+width ancho
+height alto
+**/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: white;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+p {
+    font-size: 1.8rem;
+    font-family: Arial;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.header__logo{
+    width: 350px;
+    height: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__logo {
+    margin: 3rem 0;
+}
+.navegacion {
+    background-color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+}
+.navegacion__enlace {
+    font-family:  arial;
+    color: black;
+    font-size: 3rem;
+}
+/** imagenes o productos**/
+.productoimg{
+    width:250px;
+    height:300px;
+}
+
+
+.producto-titulo{
+    text-align: center;
+}
+
+/** Footer **/
+.footer {
+    background-color: #363636;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.footer__texto {
+    font-family: arial;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.wichocomunicacoca{
+    width: 400px;
+    height: 300px;
+}
+
+.fueradeespacio{
+    margin-left: 580px;
+    width: 500px;
+    height: 300px;
+}

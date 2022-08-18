@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: arial;
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    color:rgb(255, 115, 0);
+}
+.titulogeneral {
+    font-size: 45px;
+    text-align: center;
+    color:#e61d2b;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.imgg2{
+    width:550px;
+    height:450px;
+    margin-left:20px;
+}
+.texto{
+    color:black;
+    text-align: center;
+
+}
+
+.contenedor{
+        display: grid;
+        grid-template-columns: 50% 50%;
+}
+    
